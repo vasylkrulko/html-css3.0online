@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
 }
 
 ul {
@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -38,11 +42,12 @@ a {
   line-height: 16px; /* 114.286% */
   letter-spacing: -0.28px;
 }
+.header-link:hover {
+  color: #fd9222;
+}
 
 .hero {
   background-color: #1e1823;
-  max-width: 1200;
-  margin: 0 auto;
 }
 
 .hero-title {
@@ -51,4 +56,101 @@ a {
   line-height: 1.21;
   letter-spacing: -0.03em;
   color: #fff;
+}
+
+.hero-button {
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  border-radius: 100px;
+  color: #fff;
+}
+
+.hero-button-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-button-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03;
+  color: #fff;
+}
+
+.features {
+  background: #1e1823;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-list {
+}
+
+.features-item {
+}
+.features-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.features-item-text {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.taste {
+}
+
+.taste-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.taste-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+}
+
+.taste-list {
+}
+.taste-item {
+}
+.taste-image {
+}
+
+.taste-title .accent {
+  color: #fd9222;
+}
+
+.taste-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
 }

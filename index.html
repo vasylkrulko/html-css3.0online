@@ -14,6 +14,7 @@
   </head>
 
   <body>
+    <!-- Header -->
     <header class="header">
       <a class="header-logo" href="./index.html"
         ><span class="header-logo-italic">SIMPLY</span> CHOCOLATE</a
@@ -35,31 +36,34 @@
       </nav>
     </header>
     <main>
+      <!-- Hero -->
       <section class="hero">
         <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
 
-        <button type="button">Buy now</button>
-        <a href="#made">How it's made</a>
-        <a href="#down">scroll down</a>
+        <button class="hero-button" type="button">Buy now</button>
+        <a class="hero-button-link" href="#made">How it's made</a>
+        <a class="hero-button-scroll" href="#down">scroll down</a>
       </section>
 
+      <!-- Our Values Hidden-->
       <section class="features">
+        <h2 class="visually-hidden">Our Values</h2>
         <ul class="features-list">
           <li class="features-item">
-            <h2>Unsurpassed taste</h2>
-            <p>
+            <h3 class="features-subtitle">Unsurpassed taste</h3>
+            <p class="features-item-text">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
               Taste and discover a new level of chocolate bliss.
             </p>
           </li>
-          <li>
-            <h2>Affordable price</h2>
-            <p>
+          <li class="features-item">
+            <h3 class="features-subtitle">Affordable price</h3>
+            <p class="features-item-text">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -67,9 +71,9 @@
               affordable luxury today.
             </p>
           </li>
-          <li>
-            <h2>Own production</h2>
-            <p>
+          <li class="features-item">
+            <h3 class="features-subtitle">Own production</h3>
+            <p class="features-item-text">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -78,55 +82,67 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL TASTE SENSATION</h2>
-        <p>
+
+      <!-- IT ALL ADDS UP TO ONE EXCEPTIONAL TASTE SENSATION -->
+      <section class="taste">
+        <h2 class="taste-title">
+          It all adds up to one exceptional
+          <span class="accent">taste</span> sensation
+        </h2>
+        <p class="taste-text">
           At Simply Chocolate, we believe that the secret to exceptional
           chocolate is in the details. From the sourcing of the finest
           ingredients to the careful crafting of each individual piece, every
           step of our process adds up to one exceptional taste sensation.
         </p>
-        <ul>
-          <li>
+
+        <ul class="taste-list">
+          <li class="taste-item">
             <img
+              class="taste-image"
               src="./img/milk_chokolate.png"
               width="206"
               height="160"
               alt="MILK CHOCOLATE"
             />
-            <h3>MILK CHOCOLATE</h3>
+            <h3 class="taste-subtitle">MILK CHOCOLATE</h3>
           </li>
-          <li>
+          <li class="taste-item">
             <img
+              class="taste-image"
               src="./img/milk.png"
               width="206"
               height="160"
               alt="MILK CHOCOLATE"
             />
-            <h3>MILK</h3>
+            <h3 class="taste-subtitle">MILK</h3>
           </li>
-          <li>
+          <li class="taste-item">
             <img
+              class="taste-image"
               src="./img/milk-white-chocolate.png"
               width="206"
               height="160"
               alt="MILK CHOCOLATE"
             />
-            <h3>SEMI - SWEET CHOCOLATE</h3>
+            <h3 class="taste-subtitle">SEMI - SWEET CHOCOLATE</h3>
           </li>
-          <li>
+          <li class="taste-item">
             <img
+              class="taste-image"
               src="./img/nuts.png"
               width="206"
               height="160"
               alt="MILK CHOCOLATE"
             />
-            <h3>NUTS</h3>
+            <h3 class="taste-subtitle">NUTS</h3>
           </li>
         </ul>
       </section>
+
+      <!-- HOW IT'S MADE? -->
       <section id="made">
-        <h2>HOW IT'S made?</h2>
+        <h2>HOW IT'S MADE?</h2>
         <img
           src="./img/how-its-made.jpg"
           width="600"
@@ -155,6 +171,8 @@
           </li>
         </ul>
       </section>
+
+      <!-- chocolate is loved -->
       <section id="loved">
         <h2>chocolate is loved</h2>
         <ul>
@@ -203,6 +221,8 @@
         <button type="button">Leave a review</button>
       </section>
     </main>
+
+    <!-- Footer -->
     <footer id="down">
       <p>Chocolate a delicious cure for a bad day</p>
       <p>Contact us</p>
